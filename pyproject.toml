@@ -1,0 +1,60 @@
+[tool.poetry]
+name = "hecktor2021"
+version = "1.0.0"
+description = "BAMF Health HECKTOR 2021 Task 1 code"
+authors = ["Jeff VanOss <jeff.vanoss@bamfhealth.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+click = "^8.0.1"
+monai = {version = "^0.7", extras = ["all"]}
+numpy = "^1.23"
+pandas = "^1.4"
+pytorch-lightning = "^1.6"
+scikit-image = "^0.19"
+scikit-learn = "^1.1"
+scipy = "^1.8"
+SimpleITK = "^2.1"
+tqdm = "^4.64"
+
+
+[tool.poetry.dev-dependencies]
+black = "^22.6"
+flake8 = "^4.0"
+ipython = "^8.4"
+mypy = "^0.961"
+pre-commit = "^2.20"
+
+
+[tool.isort]
+include_trailing_comma = true
+use_parentheses = true
+multi_line_output = 3
+force_grid_wrap = 0
+line_length = 88
+
+[tool.black]
+line-length = 88
+target-version = ['py37']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+    | \.git
+    | \.hg
+    | \.mypy_cache
+    | \.pytest_cache
+    | \.tox
+    | \.vscode
+    | __pycache__
+    | _build
+    | buck-out
+    | build
+    | dist
+    | venv
+)/
+'''
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

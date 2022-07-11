@@ -1,0 +1,1537 @@
+{
+  "name": "hecktor",
+  "modality": { "0": "CT", "1": "PT" },
+  "labels": { "0": "background", "1": "tumor" },
+  "numTraining": 224,
+  "training": [
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ007_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ007_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ007_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ013_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ013_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ013_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ015_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ015_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ015_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ016_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ016_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ016_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ017_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ017_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ017_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ018_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ018_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ018_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ025_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ025_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ025_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ026_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ026_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ026_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ028_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ028_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ028_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ029_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ029_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ029_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ031_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ031_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ031_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ032_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ032_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ032_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ034_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ034_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ034_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ035_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ035_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ035_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ036_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ036_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ036_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ037_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ037_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ037_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ038_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ038_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ038_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ039_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ039_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ039_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ043_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ043_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ043_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ046_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ046_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ046_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ048_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ048_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ048_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ050_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ050_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ050_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ052_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ052_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ052_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ053_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ053_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ053_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ055_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ055_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ055_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ057_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ057_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ057_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ062_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ062_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ062_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ065_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ065_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ065_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ066_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ066_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ066_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ067_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ067_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ067_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ069_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ069_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ069_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ070_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ070_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ070_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ071_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ071_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ071_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ072_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ072_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ072_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ073_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ073_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ073_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ074_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ074_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ074_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ076_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ076_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ076_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ077_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ077_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ077_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ080_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ080_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ080_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ081_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ081_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ081_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ082_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ082_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ082_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ083_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ083_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ083_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ085_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ085_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ085_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ086_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ086_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ086_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ087_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ087_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ087_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ088_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ088_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ088_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ089_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ089_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ089_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ090_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ090_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ090_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ091_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ091_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ091_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ092_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ092_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ092_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR001_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR001_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR001_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR004_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR004_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR004_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR005_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR005_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR005_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR013_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR013_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR013_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR014_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR014_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR014_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR016_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR016_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR016_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR020_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR020_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR020_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR021_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR021_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR021_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR023_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR023_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR023_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR024_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR024_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR024_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR025_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR025_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR025_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR028_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR028_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR028_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR029_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR029_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR029_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR030_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR030_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR030_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR034_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR034_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR034_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR040_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR040_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR040_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM001_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM001_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM001_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM002_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM002_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM002_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM007_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM007_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM007_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM010_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM010_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM010_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM011_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM011_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM011_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM012_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM012_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM012_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM014_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM014_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM014_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM015_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM015_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM015_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM016_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM016_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM016_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM018_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM018_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM018_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM019_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM019_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM019_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM021_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM021_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM021_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM022_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM022_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM022_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM023_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM023_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM023_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM024_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM024_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM024_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM026_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM026_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM026_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM029_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM029_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM029_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM030_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM030_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM030_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM032_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM032_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM032_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM033_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM033_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM033_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM034_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM034_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM034_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM035_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM035_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM035_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM038_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM038_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM038_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM040_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM040_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM040_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM042_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM042_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM042_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM043_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM043_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM043_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM044_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM044_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM044_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM045_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM045_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM045_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM046_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM046_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM046_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM047_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM047_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM047_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM048_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM048_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM048_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM049_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM049_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM049_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM050_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM050_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM050_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM051_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM051_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM051_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM053_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM053_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM053_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM054_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM054_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM054_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM055_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM055_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM055_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM056_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM056_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM056_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM057_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM057_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM057_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM058_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM058_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM058_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM060_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM060_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM060_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM061_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM061_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM061_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM063_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM063_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM063_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM064_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM064_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM064_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM065_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM065_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM065_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP001_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP001_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP001_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP002_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP002_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP002_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP003_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP003_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP003_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP004_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP004_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP004_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP005_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP005_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP005_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP006_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP006_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP006_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP008_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP008_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP008_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP010_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP010_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP010_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP011_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP011_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP011_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP012_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP012_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP012_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP013_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP013_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP013_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP016_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP016_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP016_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP018_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP018_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP018_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP019_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP019_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP019_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP020_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP020_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP020_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS003_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS003_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS003_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS007_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS007_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS007_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS008_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS008_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS008_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS009_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS009_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS009_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS010_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS010_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS010_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS016_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS016_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS016_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS019_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS019_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS019_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS020_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS020_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS020_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS022_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS022_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS022_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS026_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS026_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS026_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS027_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS027_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS027_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS028_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS028_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS028_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS030_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS030_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS030_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS031_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS031_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS031_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS033_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS033_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS033_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS036_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS036_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS036_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS039_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS039_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS039_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS040_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS040_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS040_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS041_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS041_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS041_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS043_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS043_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS043_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS045_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS045_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS045_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS046_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS046_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS046_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS047_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS047_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS047_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS048_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS048_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS048_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS049_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS049_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS049_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS051_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS051_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS051_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS052_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS052_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS052_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS053_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS053_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS053_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS055_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS055_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS055_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS056_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS056_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS056_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS057_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS057_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS057_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS058_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS058_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS058_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS060_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS060_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS060_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS061_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS061_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS061_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS065_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS065_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS065_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS068_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS068_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS068_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS073_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS073_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS073_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS074_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS074_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS074_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS076_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS076_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS076_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS077_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS077_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS077_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS080_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS080_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS080_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS081_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS081_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS081_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS085_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS085_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS085_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS087_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS087_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS087_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS088_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS088_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS088_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS089_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS089_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS089_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS090_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS090_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS090_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS091_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS091_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS091_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS094_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS094_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS094_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS096_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS096_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS096_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS097_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS097_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS097_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS098_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS098_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS098_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS101_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS101_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS101_gtvt.nii.gz"
+    }
+  ],
+  "validation": [
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ008_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ008_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ008_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ010_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ010_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ010_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ030_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ030_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ030_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ058_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ058_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ058_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHGJ078_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHGJ078_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHGJ078_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR011_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR011_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR011_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHMR012_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHMR012_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHMR012_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM006_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM006_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM006_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM008_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM008_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM008_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM013_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM013_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM013_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM017_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM017_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM017_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM027_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM027_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM027_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM036_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM036_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM036_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM037_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM037_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM037_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM039_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM039_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM039_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM041_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM041_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM041_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM059_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM059_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM059_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUM062_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUM062_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUM062_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP007_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP007_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP007_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP009_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP009_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP009_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP014_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP014_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP014_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP015_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP015_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP015_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP017_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP017_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP017_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP021_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP021_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP021_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP022_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP022_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP022_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUP023_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUP023_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUP023_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS004_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS004_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS004_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS005_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS005_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS005_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS006_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS006_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS006_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS013_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS013_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS013_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS015_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS015_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS015_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS021_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS021_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS021_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS035_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS035_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS035_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS038_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS038_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS038_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS042_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS042_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS042_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS050_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS050_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS050_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS064_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS064_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS064_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS066_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS066_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS066_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS067_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS067_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS067_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS069_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS069_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS069_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS078_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS078_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS078_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS083_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS083_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS083_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS086_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS086_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS086_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS095_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS095_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS095_gtvt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_resample_cropped/CHUS100_ct.nii.gz",
+      "PT": "hecktor_nii_resample_cropped/CHUS100_pt.nii.gz",
+      "label": "hecktor_nii_resample_cropped/CHUS100_gtvt.nii.gz"
+    }
+  ],
+  "numTest": 101,
+  "test": [
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP025_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP025_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP026_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP026_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP027_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP027_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP028_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP028_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP029_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP029_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP031_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP031_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP034_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP034_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP035_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP035_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP036_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP036_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP037_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP037_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP038_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP038_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP039_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP039_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP040_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP040_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP041_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP041_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP042_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP042_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP043_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP043_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP044_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP044_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP045_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP045_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP047_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP047_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP048_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP048_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP049_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP049_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP050_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP050_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP051_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP051_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP052_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP052_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP053_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP053_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP054_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP054_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP055_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP055_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP056_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP056_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP057_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP057_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP058_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP058_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP059_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP059_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP060_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP060_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP061_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP061_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP062_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP062_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP063_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP063_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP064_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP064_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP065_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP065_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP066_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP066_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP067_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP067_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP068_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP068_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP069_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP069_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP070_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP070_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP071_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP071_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP072_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP072_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP073_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP073_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP074_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP074_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP075_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP075_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUP076_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUP076_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV001_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV001_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV002_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV002_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV003_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV003_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV004_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV004_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV005_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV005_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV006_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV006_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV007_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV007_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV008_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV008_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV009_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV009_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV010_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV010_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV011_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV011_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV012_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV012_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV013_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV013_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV014_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV014_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV015_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV015_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV016_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV016_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV017_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV017_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV018_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV018_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV019_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV019_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV020_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV020_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV021_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV021_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV022_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV022_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV023_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV023_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV024_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV024_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV025_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV025_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV026_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV026_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV027_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV027_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV028_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV028_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV029_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV029_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV030_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV030_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV031_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV031_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV032_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV032_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV033_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV033_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV034_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV034_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV035_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV035_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV036_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV036_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV037_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV037_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV038_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV038_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV039_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV039_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV040_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV040_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV041_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV041_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV042_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV042_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV043_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV043_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV044_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV044_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV045_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV045_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV046_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV046_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV047_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV047_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV048_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV048_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV049_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV049_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV050_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV050_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV051_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV051_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV052_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV052_pt.nii.gz"
+    },
+    {
+      "CT": "hecktor_nii_test_resample_cropped/CHUV053_ct.nii.gz",
+      "PT": "hecktor_nii_test_resample_cropped/CHUV053_pt.nii.gz"
+    }
+  ]
+}
